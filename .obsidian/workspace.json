@@ -1,0 +1,167 @@
+{
+  "main": {
+    "id": "409741402b5ac037",
+    "type": "split",
+    "children": [
+      {
+        "id": "0fde0d469af8085c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b75fcca1ddd5a603",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "浸没边界法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "772ca76a2530936f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quasi-static image-based immersed boundary-finite element model of left ventricle under diastolic loading.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "33cf8d51840e6ac2",
+    "type": "split",
+    "children": [
+      {
+        "id": "c647232f5944c530",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c5967e9cddc16b2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "14a9cc1076ebd2b5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d3ac3e9e4e2fc5e6",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 334
+  },
+  "right": {
+    "id": "f1e99f14867ed2ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a0f7b6ee18ef626",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "26f0dbf303d64a10",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Quasi-static image-based immersed boundary-finite element model of left ventricle under diastolic loading.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "1772b355542f8178",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Quasi-static image-based immersed boundary-finite element model of left ventricle under diastolic loading.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4dbb59a282e61eb9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "73d3d08f6998047a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Quasi-static image-based immersed boundary-finite element model of left ventricle under diastolic loading.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 256
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "772ca76a2530936f",
+  "lastOpenFiles": [
+    "多物理系统.md",
+    "Quasi-static image-based immersed boundary-finite element model of left ventricle under diastolic loading.md",
+    "心脏计算模型.md",
+    "舒张负荷条件.md",
+    "templates/定义.md",
+    "基于结构体的超弹性应变能函数.md",
+    "浸没边界法.md",
+    "attatchments/浸没边界法.pdf",
+    "浸没结构体.md",
+    "attatchments/An introduction to the Immersed boundary method and its finite element approximat.pdf"
+  ]
+}
