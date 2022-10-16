@@ -9,6 +9,11 @@
       "type": "file",
       "title": "Quasi-static image-based immersed boundary-finite element model of left ventricle under diastolic loading",
       "path": "Quasi-static image-based immersed boundary-finite element model of left ventricle under diastolic loading.md"
+    },
+    {
+      "type": "file",
+      "title": "浸没边界法及其有限元逼近",
+      "path": "浸没边界法及其有限元逼近.md"
     }
   ]
 }

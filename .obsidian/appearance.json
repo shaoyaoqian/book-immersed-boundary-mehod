@@ -1,7 +1,10 @@
 {
   "translucency": false,
-  "theme": "moonstone",
+  "theme": "system",
   "cssTheme": "Blue Topaz",
-  "baseFontSize": 16,
-  "accentColor": ""
+  "baseFontSize": 17,
+  "accentColor": "",
+  "interfaceFontFamily": "华文楷体,Al Tarikh",
+  "textFontFamily": "华文楷体",
+  "monospaceFontFamily": "JetBrains Mono NL"
 }

@@ -4,30 +4,64 @@
     "type": "split",
     "children": [
       {
-        "id": "0fde0d469af8085c",
+        "id": "2a1f06baddbcc302",
         "type": "tabs",
         "children": [
           {
-            "id": "b75fcca1ddd5a603",
+            "id": "df4752e6eb9ff90d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "浸没边界法.md",
+                "file": "有限元方法/有限元方法.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "772ca76a2530936f",
+            "id": "43f887bd92024678",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quasi-static image-based immersed boundary-finite element model of left ventricle under diastolic loading.md",
+                "file": "有限元方法/有限元多重网格法.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "b36f9bb71a79bce3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "有限元方法/协调有限元空间.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d4268044e573a373",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "有限元方法/线形元.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e34950df33db232",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "attatchments/标注示例.png"
               }
             }
           }
@@ -61,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "协调有限元空间",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quasi-static image-based immersed boundary-finite element model of left ventricle under diastolic loading.md",
+                "file": "有限元方法/有限元多重网格法.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quasi-static image-based immersed boundary-finite element model of left ventricle under diastolic loading.md",
+                "file": "有限元方法/有限元多重网格法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,11 +172,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quasi-static image-based immersed boundary-finite element model of left ventricle under diastolic loading.md"
+                "file": "有限元方法/有限元多重网格法.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -151,17 +186,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "772ca76a2530936f",
+  "active": "43f887bd92024678",
   "lastOpenFiles": [
-    "多物理系统.md",
-    "Quasi-static image-based immersed boundary-finite element model of left ventricle under diastolic loading.md",
-    "心脏计算模型.md",
-    "舒张负荷条件.md",
-    "templates/定义.md",
-    "基于结构体的超弹性应变能函数.md",
-    "浸没边界法.md",
-    "attatchments/浸没边界法.pdf",
-    "浸没结构体.md",
-    "attatchments/An introduction to the Immersed boundary method and its finite element approximat.pdf"
+    "有限元方法/有限元方法.md",
+    "有限元方法/Crouzeix-Raviart 元.md",
+    "有限元方法/协调有限元空间.md",
+    "有限元方法/线形元.md",
+    "有限元方法/协调线形元.md",
+    "attatchments/标注示例.png",
+    "attatchments/Pasted image 20221014212321.png",
+    "有限元方法/有限元空间.md",
+    "有限元方法/协调元.md",
+    "横向各向同性.md"
   ]
 }

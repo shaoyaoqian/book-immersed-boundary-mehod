@@ -1,3 +1,14 @@
+---
+title: Quasi-static image-based immersed boundary-finite element model of left ventricle under diastolic loading
+author: 马鹏飞
+category: translation
+layout: post
+mathjax: yes
+Status: waiting
+tags: 论文笔记
+date: 2022-10-14 21:21
+---
+
 
 
 心脏的[[有限应力应变分析]]可使我们深入了解[[心肌功能和功能障碍]]的生物力学原理。
@@ -5,7 +16,26 @@
 
 心脏疾病和心脏衰竭的生物力学机理尚未完全明晰，我们知道心肌[[应力应变分布]]的改变可能会导致[[心室肥厚]]等疾病[^1][^2]，但是我们无法直接测量患者的心肌的[[应力应变分布]]。[[心脏的计算模型]]可以很便利地提供三维的应力应变分布，这样的模型可以帮助医生确定患者的风险等级，并帮助医生临床决策[^3]。提高对心室生物力学的理解对于优化旨在恢复正常心脏功能的医疗和手术程序也很重要[^4]。
 
-开发一个真实的[[心脏计算模型]]是非常复杂的。心脏是一个[[多物理系统]]，心肌收缩是由[[心脏电生理学]]来刺激和协调的。主动和
+开发一个真实的[[心脏计算模型]]是非常复杂的。心脏是一个[[多物理系统]]，心肌收缩是通过[[心脏电生理学]]刺激来协调的。心肌的主、被动力学性质是各向异性和非线性的，心室在收缩期和舒张期都会经历大变形。此外，心脏本质上是一个流固耦合系统，一个完整的动态计算模型必须包含心肌和血液。此外，病人个体之间存在显著的[[心脏解剖学]]和生理学差异，这个因素必须纳入完整的针对个体的计算模型中。针对病人个体的[[心脏生物力学]]建模的研究可参考[^5]。
+
+考虑到心脏复杂的[[解剖结构]]，大变形，非线性材料响应等特点，大多数详细描述过的[[心力学模型]]都采用了[[非线性有限元方法]]。[[体积应力]]和[[偏应力]]。
+
+1990年开始，许多研究表明，心室的[[肌原纤维]]呈现出[[分层结构]]，可以用
+[[正交各向异性被动材料响应]]
+[[横向各向同性]]
+Holzapfel–Ogden模型可以描述左心室心肌的超弹性和正交性。
+[[应变能泛函|应变能泛函(strain-energy functional)]]
+
+
+临床[[核磁共振]]图像数据
+
+
+
+
+
+
+
+
 
 
 
@@ -21,3 +51,4 @@
 [^2]: Zile MR, Baicu CF, Gaasch WH. Diastolic heart failure abnormalities in active relaxation and passive stiffness of the left ventricle. New England Journal of Medicine 2004; 350(19):1953–1959.
 [^3]: Smith N, de Vecchi A, McCormick M, Nordsletten D, Camara O, Frangi AF, Delingette H, Sermesant M, Relan J, Ayache N, Krueger MW, Schulze WHW, Hose R, Valverde I, Beerbaum P, Staicu C, Siebes M, Spaan J, Hunter P, Weese J, Lehmann H, Chapelle D, Rezavi R. euHeart: personalized and integrated cardiac care using patient-specific cardiovascular modelling. Interface Focus 2011; 1(3):349–364.
 [^4]: Niederer SA, Shetty AK, Plank G, Bostock J, Razavi R, Smith N, Rinaldi CA. Biophysical modeling to simulate the response to multisite left ventricular stimulation using a quadripolar pacing lead. Pacing and Clinical Electrophysiology 2012; 35(2):204–214.
+[^5]:. Krishnamurthy A, Villongco CT, Chuang J, Frank LR, Nigam V, Belezzuoli E, Stark P, Krummen DE, Narayan S, Omens JH, McCulloch AD, Kerckhoffs RCP. Patient-specific models of cardiac biomechanics. Journal of Computational Physics 2013; 244:4–21
