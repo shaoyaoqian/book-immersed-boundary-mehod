@@ -4,35 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "0fde0d469af8085c",
+        "id": "b95069a646e63577",
         "type": "tabs",
         "children": [
           {
-            "id": "b75fcca1ddd5a603",
+            "id": "5fa0a5b860c2fcf7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "浸没边界法.md",
+                "file": "2022-10-16.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "772ca76a2530936f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quasi-static image-based immersed boundary-finite element model of left ventricle under diastolic loading.md",
-                "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -61,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#名词定义",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quasi-static image-based immersed boundary-finite element model of left ventricle under diastolic loading.md",
+                "file": "2022-10-16.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quasi-static image-based immersed boundary-finite element model of left ventricle under diastolic loading.md",
+                "file": "2022-10-16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +117,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -138,30 +127,46 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quasi-static image-based immersed boundary-finite element model of left ventricle under diastolic loading.md"
+                "file": "2022-10-16.md"
               }
+            }
+          },
+          {
+            "id": "34432f258aa9d160",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "3bef73dd39d1b13f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 256
+    "width": 450
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "772ca76a2530936f",
+  "active": "5fa0a5b860c2fcf7",
   "lastOpenFiles": [
-    "多物理系统.md",
-    "Quasi-static image-based immersed boundary-finite element model of left ventricle under diastolic loading.md",
-    "心脏计算模型.md",
-    "舒张负荷条件.md",
-    "templates/定义.md",
-    "基于结构体的超弹性应变能函数.md",
+    "2022-10-17.md",
     "浸没边界法.md",
-    "attatchments/浸没边界法.pdf",
-    "浸没结构体.md",
-    "attatchments/An introduction to the Immersed boundary method and its finite element approximat.pdf"
+    "表面接触力密度.md",
+    "拉格朗日网格.md",
+    "2022-10-16.md",
+    "对偶性.md",
+    "未命名.md",
+    "未命名 1.md",
+    "templates/定义.md",
+    "Quasi-static image-based immersed boundary-finite element model of left ventricle under diastolic loading.md"
   ]
 }
