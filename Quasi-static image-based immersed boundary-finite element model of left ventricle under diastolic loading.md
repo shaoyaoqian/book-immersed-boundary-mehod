@@ -42,11 +42,6 @@ Holzapfel–Ogden模型可以描述左心室心肌的超弹性和正交性。
 
 
 
-
-
-
-
-
 [^1]: Costa KD, Holmes JW, McCulloch AD. Modelling cardiac mechanical properties in three dimensions. Philosophical Transactions of the Royal Society of London. Series A: Mathematical, Physical and Engineering Science 2001; 359(1783):1233–1250.
 [^2]: Zile MR, Baicu CF, Gaasch WH. Diastolic heart failure abnormalities in active relaxation and passive stiffness of the left ventricle. New England Journal of Medicine 2004; 350(19):1953–1959.
 [^3]: Smith N, de Vecchi A, McCormick M, Nordsletten D, Camara O, Frangi AF, Delingette H, Sermesant M, Relan J, Ayache N, Krueger MW, Schulze WHW, Hose R, Valverde I, Beerbaum P, Staicu C, Siebes M, Spaan J, Hunter P, Weese J, Lehmann H, Chapelle D, Rezavi R. euHeart: personalized and integrated cardiac care using patient-specific cardiovascular modelling. Interface Focus 2011; 1(3):349–364.
