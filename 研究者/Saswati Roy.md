@@ -1,12 +1,13 @@
 ---
-title: 心脏生物力学
+title: Saswati Roy
 author: 马鹏飞
 category: translation
 layout: post
 mathjax: yes
 status: waiting
-tags: 名词定义
-date: 2022-10-15 01:10
+tags: 浸没边界法, 人名
+date: 2022-10-16 15:46
 ---
 
-cardiac biomechanics
+
+

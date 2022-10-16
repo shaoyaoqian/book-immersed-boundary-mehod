@@ -4,19 +4,22 @@ author: 马鹏飞
 category: translation
 layout: post
 mathjax: yes
-Status: waiting
-tags: 名词定义
+status: waiting
+tags: 插件, dataview
 date: 2022-10-16 10:22
 ---
 
+- [ ] a
+- [ ] b
+- [ ] c
 
 ```dataview
 table date AS 创建日期, author as 作者
-from #名词定义  
+from #now  
 sort date desc 
 ```
 ```dataview
-task from #名词定义  
+task from #dataview
 ```
 ```dataviewjs
 // 修改其中的时间，可以输出当前离倒计时的时间差。

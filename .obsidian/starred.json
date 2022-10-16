@@ -3,12 +3,12 @@
     {
       "type": "file",
       "title": "浸没边界法",
-      "path": "浸没边界法.md"
+      "path": "论文笔记/混合了有限差分方法和有限元方法的浸没边界法.md"
     },
     {
       "type": "file",
       "title": "Quasi-static image-based immersed boundary-finite element model of left ventricle under diastolic loading",
-      "path": "Quasi-static image-based immersed boundary-finite element model of left ventricle under diastolic loading.md"
+      "path": "论文笔记/用浸没有限元方法模拟左心室模型舒张期压力加载过程.md"
     },
     {
       "type": "file",

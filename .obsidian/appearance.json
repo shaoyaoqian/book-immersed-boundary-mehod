@@ -1,10 +1,10 @@
 {
   "translucency": false,
-  "theme": "system",
+  "theme": "moonstone",
   "cssTheme": "Blue Topaz",
-  "baseFontSize": 17,
+  "baseFontSize": 21,
   "accentColor": "",
-  "interfaceFontFamily": "华文楷体,Al Tarikh",
-  "textFontFamily": "华文楷体",
-  "monospaceFontFamily": "JetBrains Mono NL"
+  "interfaceFontFamily": "Klee,Yuanti SC,Annai MN,华文楷体",
+  "textFontFamily": "Klee,Times New Roman,Annai MN,华文楷体,Apple Braille",
+  "monospaceFontFamily": "YuMincho +36p Kana,JetBrains Mono NL"
 }
