@@ -1,4 +1,6 @@
 {
   "autorun": true,
-  "folder": "/"
+  "folder": "日记",
+  "format": "日记_YYYY_MM_DD_dddd",
+  "template": "日记/模板/日记模板"
 }

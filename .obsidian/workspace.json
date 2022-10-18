@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4a1211dc26291a86",
+        "id": "a2460d9f9b03ec2a",
         "type": "tabs",
         "children": [
           {
-            "id": "2c77f780007095a4",
+            "id": "d3465b062062fd32",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,10 +44,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#论文笔记",
+                "query": "多重网格",
                 "matchingCase": false,
                 "explainSearch": true,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabeticalReverse",
                 "useHierarchy": true
               }
             }
@@ -138,27 +138,26 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 386.5
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "2c77f780007095a4",
+  "active": "d3465b062062fd32",
   "lastOpenFiles": [
-    "有限元方法/有限元方法.md",
-    "2022-10-16.md",
-    "论文笔记/结合无矩阵方法与几何多重网格方法求解有限应变超弹性问题.md",
-    "论文笔记/用浸没有限元方法模拟左心室模型舒张期压力加载过程.md",
-    "分层结构.md",
-    "浸没有限元方法.md",
-    "有限变形结构力学模型.md",
-    "有限变形结构体模型.md",
-    "有限形变弹性体模型.md",
-    "正交各向异性被动材料响应.md"
+    "多重网格方法/对称正定问题.md",
+    "多重网格方法/参考资料.md",
+    "多重网格方法/多重网格方法中光滑器的并行：多项式迭代方法和Gauss-Seidel 迭代方法的比较.md",
+    "多重网格方法/共轭梯度迭代方法.md",
+    "多重网格方法/结合无矩阵方法与几何多重网格方法求解有限应变超弹性问题.md",
+    "多重网格方法/Lanczos迭代方法.md",
+    "多重网格方法/M矩阵.md",
+    "多重网格方法/盖尔圆盘定理.md",
+    "有限元方法/多重网格光滑器.md",
+    "有限元方法/有限元多重网格法.md"
   ]
 }
