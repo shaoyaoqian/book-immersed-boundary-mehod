@@ -60,19 +60,6 @@ $$
 $$
 如果理想的粗网格校正非常接近真实的粗网格校正，那么$\mu_k$接近真实的多重网格收敛速率。
 
-
-
-The properties of the Jacobi method can be improved by iterating it a few times with the so-called Chebyshev iteration.?
-
-The Chebyshev iteration is described by a polynomial expression of the matrix-vector product where the coefficients can be chosen to achieve certain properties, in this case to smooth the high-frequency components of the error which are associated to the eigenvalues of the Jacobi-preconditioned matrix. At degree zero, the Jacobi method with optimal damping parameter is retrieved, whereas higher order corrections are used to improve the smoothing properties. The effectiveness of Chebyshev smoothing in multigrid has been demonstrated, e.g., in the article [_M. Adams, M. Brezina, J. Hu, R. Tuminaro. Parallel multigrid smoothers: polynomial versus Gauss–Seidel, J. Comput. Phys. 188:593–610, 2003_](http://www.sciencedirect.com/science/article/pii/S0021999103001943). This publication also identifies one more advantage of Chebyshev smoothers that we exploit here, namely that they are easy to parallelize, whereas SOR/Gauss–Seidel smoothing relies on substitutions, for which a naive parallelization works on diagonal sub-blocks of the matrix, thereby decreases efficiency (for more detail see e.g. Y. Saad, Iterative Methods for Sparse Linear Systems, SIAM, 2nd edition, 2003, chapters 11 & 12).
-
-[[盖尔圆盘定理]]
-
-
-
-
-
-
 ## 特征值估计
 [Chebyshev迭代方法](Chebyshev迭代方法)的主要缺点是需要知道矩阵$A$的最大最小特征值。如果我们使用[Chebyshev半迭代方法](Chebyshev半迭代方法)作为一个单独的求解器使用，那么需要最小特征值，最小特征值通常很难得到。如果[Chebyshev半迭代方法](Chebyshev半迭代方法)作为一个[多重网格光滑器](../有限元方法/多重网格光滑器.md)使用，那么我们只需知道最大特征值。最大特征值除以一个常数（比如30），作为最小特征值的估计。这个常数和多重网格方法中网格粗化速度相关。据我们观察，多重网格方法的收敛速率对这个常数不是非常敏感，后文中进行了讨论。
 

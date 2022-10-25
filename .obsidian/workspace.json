@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c6ee7069f80eeb3d",
+        "id": "0c2d78dc628ca89c",
         "type": "tabs",
         "children": [
           {
-            "id": "ca128e302fec8348",
+            "id": "9229cf827e41dced",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/日记_2022_10_20_星期四.md",
-                "mode": "source",
+                "file": "有限元方法/有限元方法.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 204.5
   },
   "right": {
     "id": "f1e99f14867ed2ff",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/日记_2022_10_20_星期四.md",
+                "file": "有限元方法/有限元方法.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/日记_2022_10_20_星期四.md",
+                "file": "有限元方法/有限元方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/日记_2022_10_20_星期四.md"
+                "file": "有限元方法/有限元方法.md"
               }
             }
           },
@@ -156,17 +156,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "ca128e302fec8348",
+  "active": "9229cf827e41dced",
   "lastOpenFiles": [
-    "日记/日记_2022_10_19_星期三.md",
-    "日记/日记_2022_10_18_星期二.md",
-    "多重网格方法/对称正定问题.md",
-    "多重网格方法/参考资料.md",
-    "多重网格方法/多重网格方法中光滑器的并行：多项式迭代方法和Gauss-Seidel 迭代方法的比较.md",
-    "多重网格方法/共轭梯度迭代方法.md",
-    "多重网格方法/结合无矩阵方法与几何多重网格方法求解有限应变超弹性问题.md",
-    "多重网格方法/Lanczos迭代方法.md",
-    "多重网格方法/M矩阵.md",
-    "多重网格方法/盖尔圆盘定理.md"
+    "有限元方法/协调有限元空间.md",
+    "有限元方法/Argyris元.md",
+    "有限元方法/有限元方法.md",
+    "日记/日记_2022_10_25_星期二.md",
+    "有限元方法/有限元多重网格法.md",
+    "有限元方法/协调元.md",
+    "有限元方法/有限元空间.md",
+    "有限元方法/协调线形元.md",
+    "有限元方法/线形元.md",
+    "有限元方法/几何多重网格方法.md"
   ]
 }
