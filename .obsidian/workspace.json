@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0c2d78dc628ca89c",
+        "id": "eb93510f7437d9d9",
         "type": "tabs",
         "children": [
           {
-            "id": "9229cf827e41dced",
+            "id": "68f43a2cf8196909",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "有限元方法/有限元方法.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "有限元方法/有限元方法.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "有限元方法/有限元方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "有限元方法/有限元方法.md"
-              }
+              "state": {}
             }
           },
           {
@@ -156,17 +147,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "9229cf827e41dced",
+  "active": "68f43a2cf8196909",
   "lastOpenFiles": [
-    "有限元方法/协调有限元空间.md",
-    "有限元方法/Argyris元.md",
+    "血流动力学研究/血运重建.md",
+    "血流动力学研究/A. 目录.md",
+    "日记/日记_2022_10_29_星期六.md",
+    "日记/日记_2022_10_26_星期三.md",
     "有限元方法/有限元方法.md",
-    "日记/日记_2022_10_25_星期二.md",
-    "有限元方法/有限元多重网格法.md",
-    "有限元方法/协调元.md",
     "有限元方法/有限元空间.md",
-    "有限元方法/协调线形元.md",
-    "有限元方法/线形元.md",
-    "有限元方法/几何多重网格方法.md"
+    "有限元方法/Crouzeix-Raviart 元.md",
+    "有限元方法/Argyris元.md",
+    "有限元方法/有限元多重网格法.md",
+    "有限元方法/协调元.md"
   ]
 }
