@@ -11,8 +11,13 @@
             "id": "68f43a2cf8196909",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "血流动力学研究/A. 目录.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "血流动力学研究/A. 目录.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "血流动力学研究/A. 目录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "血流动力学研究/A. 目录.md"
+              }
             }
           },
           {
@@ -151,13 +160,13 @@
   "lastOpenFiles": [
     "血流动力学研究/血运重建.md",
     "血流动力学研究/A. 目录.md",
+    "日记/日记_2022_10_31_星期一.md",
     "日记/日记_2022_10_29_星期六.md",
     "日记/日记_2022_10_26_星期三.md",
     "有限元方法/有限元方法.md",
     "有限元方法/有限元空间.md",
     "有限元方法/Crouzeix-Raviart 元.md",
     "有限元方法/Argyris元.md",
-    "有限元方法/有限元多重网格法.md",
-    "有限元方法/协调元.md"
+    "有限元方法/有限元多重网格法.md"
   ]
 }
