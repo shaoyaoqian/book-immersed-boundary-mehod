@@ -54,5 +54,5 @@ jobs:
           . ./spack/share/spack/setup-env.sh
           spack env create cpp-main
           spack env activate cpp-main
-          spack add fenics-dolfinx@main+adios2
+          spack add gcc@4.9.4
           spack install
