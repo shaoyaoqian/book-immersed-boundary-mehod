@@ -1,23 +1,58 @@
-name: Spack Workflow
+name: Spack build
 
 on:
-  push:
-    branches:
-      - main
+  # Uncomment the below 'push' to trigger on push
+  # push:
+  #  branches:
+  #    - "**"
+  schedule:
+    # '*' is a special character in YAML, so string must be quoted
+    - cron: "0 2 * * THU"
+  workflow_dispatch:
+    inputs:
+      spack_repo:
+        description: "Spack repository to test"
+        default: "spack/spack"
+        type: string
+      spack_ref:
+        description: "Spack repository branch/tag to test"
+        default: "develop"
+        type: string
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
+    container: ubuntu:latest
+
+    env:
+      OMPI_ALLOW_RUN_AS_ROOT: 1
+      OMPI_ALLOW_RUN_AS_ROOT_CONFIRM: 1
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Get Spack
+        if: github.event_name != 'workflow_dispatch'
+        uses: actions/checkout@v4
+        with:
+          path: ./spack
+          repository: spack/spack
+      - name: Get Spack
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/checkout@v4
+        with:
+          path: ./spack
+          repository: ${{ github.event.inputs.spack_repo }}
+          ref: ${{ github.event.inputs.spack_ref }}
 
-    - name: Set up Spack
-      run: |
-        git clone https://github.com/spack/spack.git
-        export SPACK_ROOT=$PWD/spack
-        . $SPACK_ROOT/share/spack/setup-env.sh
+      - name: Install Spack requirements
+        run: |
+          apt-get -y update
+          apt-get install -y bzip2 curl file git gzip make patch python3-minimal tar xz-utils
+          apt-get install -y g++ gfortran  # compilers
 
-    - name: Install gcc 4.8.5
-      run: spack install gcc@4.8.5
+      - name: Build DOLFINx (C++) development version via Spack
+        run: |
+          . ./spack/share/spack/setup-env.sh
+          spack env create cpp-main
+          spack env activate cpp-main
+          spack add fenics-dolfinx@main+adios2
+          spack install
